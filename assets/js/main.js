@@ -1,5 +1,11 @@
 const header = document.querySelector("header");
 
+window.onload = function(){
+    if(window.innerWidth < 900){
+        alert("Откройте через компухтер!!!")
+        document.write(";(")
+    }
+}
 
 window.onscroll = () => {
     if(window.scrollY > 0) {
